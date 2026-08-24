@@ -1,0 +1,39 @@
+# Lens Studio / local development
+
+# Private keys / secrets
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# Local AI / editor configuration
+.claude/
+.codex/
+.cursor/
+.vscode/
+.mcp.json
+
+# macOS
+.DS_Store
+
+# Lens Studio local/cache/user data
+Cache/
+PluginsUserPreferences/
+Workspaces/
+Support/
+*.esproj.*.lock
+
+# Build / generated files
+build/
+dist/
+
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block

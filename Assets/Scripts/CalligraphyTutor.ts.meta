@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/46d9b132-5ff6-4c8f-a75d-7deb866fb8f5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b848e07c-afbb-4594-b8c4-9e72ec2780ba
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b848e07c-afbb-4594-b8c4-9e72ec2780ba
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d3987e17-3a8f-4650-b8a8-ce99692eaded
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d3987e17-3a8f-4650-b8a8-ce99692eaded>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 1040d4e0-334f-4689-90a7-6bd7fae00c49
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonPrefab: false
+    enableMouseInput: false
+    material: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      enableMouseInput: true
+      buttonPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.Material material
+    - // @input bool enableMouseInput = true
+    - // @input Asset.ObjectPrefab buttonPrefab
